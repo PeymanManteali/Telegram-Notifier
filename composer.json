@@ -20,13 +20,10 @@
             "TelegramNotifier\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "TelegramNotifier\\TelegramServiceProvider"
-            ]
-        }
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
