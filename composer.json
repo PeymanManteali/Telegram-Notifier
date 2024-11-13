@@ -1,0 +1,24 @@
+{
+    "name": "PeymanManteali/telegram-notifier",
+    "description": "A Laravel package to send messages to Telegram using Telegram Bot API.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TelegramNotifier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PeymanManteali",
+            "email": "peyman.manteali@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
